@@ -1,0 +1,29 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Сборка и зависимости (Java/Kotlin, Python, Node)
+build/
+out/
+target/
+.gradle/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+__pycache__/
+.venv/
+venv/
+node_modules/
+dist/
+
+# IDE и ОС
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Claude Code — личные настройки
+.claude/settings.local.json
+CLAUDE.local.md
