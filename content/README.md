@@ -23,7 +23,7 @@
       "example": "Ғалим",
       "example_translation": "Учёный",
       "tags": ["буква", "согласная"]
-    }
+    },
     {
       "id": "ba-letters-0002",
       "front": "Ң ң",
