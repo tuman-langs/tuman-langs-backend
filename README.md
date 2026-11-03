@@ -105,7 +105,7 @@ SetsRoutes (api) ──▶ GetSetUseCase (core) ──▶ SetRepository (domain)
 
 ## 🚀 Как запустить
 
-**Нужно:** JDK 17. Подойдёт встроенный в Android Studio или IntelliJ IDEA, отдельно Gradle ставить не нужно — его скачает `gradlew`.
+**Нужно:** JDK 17 или новее. Подойдёт встроенный в Android Studio или IntelliJ IDEA (JDK 21), отдельно Gradle ставить не нужно — его скачает `gradlew`.
 Без IDE на macOS: `brew install openjdk@17` и `export JAVA_HOME=/opt/homebrew/opt/openjdk@17` (строку с `export` можно добавить в `~/.zshrc`).
 
 ```bash
@@ -127,7 +127,7 @@ curl -i http://localhost:8080/sets
 Настройки через переменные окружения: `PORT` — порт (по умолчанию `8080`), `CONTENT_DIR` — папка с наборами (по умолчанию `content`).
 
 ```bash
-./gradlew test                   # тесты сервера
+./gradlew test                   # тесты сервера и проверка всех файлов в content/
 ```
 
 ### Добавить набор без кода

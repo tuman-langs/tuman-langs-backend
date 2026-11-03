@@ -4,8 +4,15 @@ plugins {
     application
 }
 
+// Собираем любым JDK 17 или новее (например, встроенным в Android Studio JDK 21),
+// а байткод выпускаем под Java 17 — он запустится на любой Java 17+.
 kotlin {
-    jvmToolchain(17)
+    compilerOptions { jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17) }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 application {
