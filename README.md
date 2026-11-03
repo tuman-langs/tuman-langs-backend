@@ -105,9 +105,8 @@ SetsRoutes (api) ──▶ GetSetUseCase (core) ──▶ SetRepository (domain)
 
 ## 🚀 Как запустить
 
-> Раздел станет рабочим после первой задачи по серверу. Команды ниже — целевые, их подтверждает backend-разработчик.
-
-**Нужно:** JDK 17 (подойдёт встроенный в Android Studio) или IntelliJ IDEA.
+**Нужно:** JDK 17 или новее. Подойдёт встроенный в Android Studio или IntelliJ IDEA (JDK 21), отдельно Gradle ставить не нужно — его скачает `gradlew`.
+Без IDE на macOS: `brew install openjdk@17` и `export JAVA_HOME=/opt/homebrew/opt/openjdk@17` (строку с `export` можно добавить в `~/.zshrc`).
 
 ```bash
 git clone https://github.com/tuman-langs/tuman-langs-backend.git
@@ -115,7 +114,17 @@ cd tuman-langs-backend
 ./gradlew :server:run            # Windows: .\gradlew.bat :server:run
 ```
 
-Проверка: откройте http://localhost:8080/sets — должен прийти JSON со списком наборов, башкирские буквы без «?» и квадратов.
+Первый запуск скачивает Gradle и библиотеки — это пара минут. Сервер готов, когда в консоли появится `Responding at http://0.0.0.0:8080`; остановить — `Ctrl+C`.
+
+Проверка: откройте http://localhost:8080/sets в браузере или выполните
+
+```bash
+curl -i http://localhost:8080/sets
+```
+
+Должен прийти `200 OK`, `Content-Type: application/json; charset=UTF-8` и JSON со списком наборов, башкирские буквы без «?» и квадратов. Пример ответа — в [docs/api.md](docs/api.md).
+
+Настройки через переменные окружения: `PORT` — порт (по умолчанию `8080`), `CONTENT_DIR` — папка с наборами (по умолчанию `content`).
 
 ```bash
 ./gradlew test                   # тесты сервера и проверка всех файлов в content/
