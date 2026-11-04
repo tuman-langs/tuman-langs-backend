@@ -17,7 +17,10 @@
       "notes": "Это приветствие - для друга!",
       "example": "Һаумы, Туман!",
       "example_translation": "Здравствуй, Туман!",
-      "tags": ["слово", "общение"]
+      "tags": [
+        "слово",
+        "общение"
+      ]
     },
     {
       "id": "ba-everyday-expressions-0002",
@@ -27,7 +30,10 @@
       "notes": "Это приветствие - вежливое!",
       "example": "Һаумыһығыҙ, уҡытыусы!",
       "example_translation": "Здравствуйте, учитель!",
-      "tags": ["слово", "общение"]
+      "tags": [
+        "слово",
+        "общение"
+      ]
     },
     {
       "id": "ba-everyday-expressions-0003",
@@ -36,89 +42,326 @@
       "pronunciation": "[рәхмӘт]",
       "example": "Ҙур рәхмәт!",
       "example_translation": "Большое спасибо!",
-      "tags": ["слово", "общение"]
+      "tags": [
+        "слово",
+        "общение"
+      ]
     },
-  {
-    "id": "ba-everyday-expressions-0004",
-    "front": "Үҙеңә рәхмәт!",
-    "back": "Пожалуйста!",
-    "notes": "Дословный перевод - \"И тебе спасибо!\", так можно ответить на благодарность!",
-    "pronunciation": "[үҙеңӘ рәхмӘт]",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0005",
-    "front": "Хәйерле иртә!",
-    "back": "Доброе утро",
-    "pronunciation": "[хәйерлЕ иртӘ]",
-    "example": "Хәйерле иртә, әсәй!",
-    "example_translation": "Доброе утро, мама!",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0006",
-    "front": "Хәйерле көн!",
-    "back": "Добрый день",
-    "pronunciation": "[хәйерлЕ кӨн]",
-    "example": "Хәйерле көн, дуҫтар!",
-    "example_translation": "Добрый день, друзья!",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0007",
-    "front": "Хәйерле кис!",
-    "back": "Добрый вечер",
-    "pronunciation": "[хәйерлЕ кИс]",
-    "example": "Хәйерле кис, ҡунаҡтар!",
-    "example_translation": "Добрый вечер, гости!",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0008",
-    "front": "Хәлдәр нисек?",
-    "back": "Как дела",
-    "pronunciation": "[хәлдӘр нисЕк]",
-    "example": "Һаумы, дуҫ! Хәлдәр нисек?",
-    "example_translation": "Привет, друг! Как дела?",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0009",
-    "front": "Яҡшы",
-    "back": "Хорошо",
-    "pronunciation": "[яҡшЫ]",
-    "example": "Рәхмәт, хәлдәр яҡшы.",
-    "example_translation": "Спасибо, дела хорошо.",
-    "tags": ["слово", "наречие", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0010",
-    "front": "Тыныс йоҡо!",
-    "back": "Спокойной ночи",
-    "pronunciation": "[тынЫс йоҡО]",
-    "example": "Тыныс йоҡо, балаҡай!",
-    "example_translation": "Спокойной ночи, малыш!",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0011",
-    "front": "Һау бул!",
-    "back": "Пока",
-    "pronunciation": "[һАу бУл]",
-    "notes": "Так прощаются с друзьями!",
-    "example": "Һау бул, дуҫ!",
-    "example_translation": "Пока, друг!",
-    "tags": ["слово", "общение"]
-  },
-  {
-    "id": "ba-everyday-expressions-0012",
-    "front": "Һау булығыҙ!",
-    "back": "До свидания",
-    "pronunciation": "[һАу булығЫҙ]",
-    "notes": "Это - вежливое прощание!",
-    "example": "Һау булығыҙ, ҡунаҡтар!",
-    "example_translation": "До свидания, гости!",
-    "tags": ["слово", "общение"]
-  }
+    {
+      "id": "ba-everyday-expressions-0004",
+      "front": "Үҙеңә рәхмәт!",
+      "back": "Пожалуйста!",
+      "notes": "Дословный перевод - \"И тебе спасибо!\", так можно ответить на благодарность!",
+      "pronunciation": "[үҙеңӘ рәхмӘт]",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0005",
+      "front": "Хәйерле иртә!",
+      "back": "Доброе утро",
+      "pronunciation": "[хәйерлЕ иртӘ]",
+      "example": "Хәйерле иртә, әсәй!",
+      "example_translation": "Доброе утро, мама!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0006",
+      "front": "Хәйерле көн!",
+      "back": "Добрый день",
+      "pronunciation": "[хәйерлЕ кӨн]",
+      "example": "Хәйерле көн, дуҫтар!",
+      "example_translation": "Добрый день, друзья!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0007",
+      "front": "Хәйерле кис!",
+      "back": "Добрый вечер",
+      "pronunciation": "[хәйерлЕ кИс]",
+      "example": "Хәйерле кис, ҡунаҡтар!",
+      "example_translation": "Добрый вечер, гости!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0008",
+      "front": "Хәлдәр нисек?",
+      "back": "Как дела?",
+      "pronunciation": "[хәлдӘр нисЕк]",
+      "example": "Һаумы, дуҫ! Хәлдәр нисек?",
+      "example_translation": "Привет, друг! Как дела?",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0009",
+      "front": "Яҡшы",
+      "back": "Хорошо",
+      "pronunciation": "[яҡшЫ]",
+      "example": "Рәхмәт, хәлдәр яҡшы.",
+      "example_translation": "Спасибо, дела хорошо.",
+      "tags": [
+        "слово",
+        "наречие",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0010",
+      "front": "Тыныс йоҡо!",
+      "back": "Спокойной ночи",
+      "pronunciation": "[тынЫс йоҡО]",
+      "example": "Тыныс йоҡо, балаҡай!",
+      "example_translation": "Спокойной ночи, малыш!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0011",
+      "front": "Һау бул!",
+      "back": "Пока",
+      "pronunciation": "[һАу бУл]",
+      "notes": "Так прощаются с друзьями!",
+      "example": "Һау бул, дуҫ!",
+      "example_translation": "Пока, друг!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0012",
+      "front": "Һау булығыҙ!",
+      "back": "До свидания",
+      "pronunciation": "[һАу булығЫҙ]",
+      "notes": "Это - вежливое прощание!",
+      "example": "Һау булығыҙ, ҡунаҡтар!",
+      "example_translation": "До свидания, гости!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0013",
+      "front": "Рәхим итегеҙ!",
+      "back": "Добро пожаловать!",
+      "pronunciation": "[рәхИм итегЕҙ]",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0014",
+      "front": "Хәйерле юл!",
+      "back": "Счастливого пути!",
+      "pronunciation": "[хәйерлЕ Юл]",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0015",
+      "front": "Шәп!",
+      "back": "Отлично!",
+      "pronunciation": "[шӘп]",
+      "example": "Шәп, рәхмәт!",
+      "example_translation": "Отлично, спасибо!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0016",
+      "front": "Ғәфү ит",
+      "back": "Извини! / Прости!",
+      "pronunciation": "[ғәфҮ Ит]",
+      "notes": "Так извиняются перед друзьями.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0017",
+      "front": "Ғәфү итегеҙ",
+      "back": "Извините! / Простите!",
+      "pronunciation": "[ғәфҮ итегЕҙ]",
+      "notes": "Это - вежливое извинение!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0018",
+      "front": "Зинһар",
+      "back": "Пожалуйста (просьба)",
+      "pronunciation": "[зинһАр]",
+      "notes": "Используется, когда вы о чем-то просите!",
+      "example": "Зинһар, ярҙам итегеҙ!",
+      "example_translation": "Пожалуйста, помогите!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0019",
+      "front": "Ярай",
+      "back": "Ладно / Хорошо (согласие)",
+      "pronunciation": "[ярАй]",
+      "example": "Ярай, мин киләм.",
+      "example_translation": "Ладно, я приду.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0020",
+      "front": "Бер ни түгел!",
+      "back": "Не за что! / Пустяки!",
+      "pronunciation": "[бер ни түгЕл]",
+      "notes": "Ответ на благодарность \"Рәхмәт!\"",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0021",
+      "front": "Белмәйем",
+      "back": "Не знаю",
+      "pronunciation": "[бЕлмәйем]",
+      "example": "Мин белмәйем.",
+      "example_translation": "Я не знаю.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0022",
+      "front": "Аңлашылды",
+      "back": "Понятно / Ясно",
+      "pronunciation": "[аңлашылдЫ]",
+      "example": "Ярай, аңлашылды.",
+      "example_translation": "Ладно, понятно.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0023",
+      "front": "Аңламайым",
+      "back": "Не понимаю",
+      "pronunciation": "[аңлАмайым]",
+      "example": "Мин аңламайым.",
+      "example_translation": "Я не понимаю.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0024",
+      "front": "Эйе",
+      "back": "Да",
+      "pronunciation": "[эйЕ]",
+      "example": "Эйе, мин киләм.",
+      "example_translation": "Да, я приду.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0025",
+      "front": "Юҡ",
+      "back": "Нет",
+      "pronunciation": "[Юҡ]",
+      "example": "Юҡ, рәхмәт.",
+      "example_translation": "Нет, спасибо.",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0026",
+      "front": "Килештек!",
+      "back": "Договорились!",
+      "pronunciation": "[килештЕк]",
+      "example": "Ярай, килештек!",
+      "example_translation": "Ладно, договорились!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0027",
+      "front": "Әлбиттә!",
+      "back": "Конечно! / Разумеется!",
+      "pronunciation": "[әлбИттә]",
+      "example": "Әлбиттә, мин киләм!",
+      "example_translation": "Конечно, я приду!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0028",
+      "front": "Нимә булды?",
+      "back": "Что случилось?",
+      "pronunciation": "[нимӘ булдЫ]",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0029",
+      "front": "Тыңлағыҙ әле...",
+      "back": "Послушайте-ка... / Извините...",
+      "pronunciation": "[тыңлағЫҙ Әле]",
+      "notes": "Это - вежливое привлечение внимания, например, прохожего или продавца!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    },
+    {
+      "id": "ba-everyday-expressions-0030",
+      "front": "Ҡара әле!",
+      "back": "Посмотри-ка!",
+      "pronunciation": "[ҡарА Әле]",
+      "notes": "Если нужно привлечь внимание друга!",
+      "tags": [
+        "слово",
+        "общение"
+      ]
+    }
   ]
 }
