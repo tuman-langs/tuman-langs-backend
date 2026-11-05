@@ -61,4 +61,19 @@ class JsonFileSetRepositoryTest {
 
         assertFailsWith<IllegalStateException> { repository.getAll() }
     }
+
+    @Test
+    fun `getById находит набор по id`() {
+        val dir = contentDirWith("test-set.json" to TEST_SET_JSON, "another-set.json" to ANOTHER_SET_JSON)
+
+        assertEquals("test-set", JsonFileSetRepository(dir).getById("test-set")?.id)
+    }
+
+    @Test
+    fun `getById для чужого id и попытки выйти из папки — null`() {
+        val repository = JsonFileSetRepository(contentDirWith("test-set.json" to TEST_SET_JSON))
+
+        assertNull(repository.getById("no-such-set"))
+        assertNull(repository.getById("../test-set"))
+    }
 }
