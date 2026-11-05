@@ -35,6 +35,13 @@ class JsonFileSetRepository(private val contentDir: Path) : SetRepository {
             .mapNotNull { readSet(it) }
     }
 
+    /**
+     * Ищем среди уже прочитанных наборов, а не открываем файл content/<id>.json напрямую:
+     * id приходит из адреса запроса, и строка вроде "../secret" не должна
+     * превращаться в путь к файлу за пределами папки с наборами.
+     */
+    override fun getById(id: String): CardSet? = getAll().find { it.id == id }
+
     /** Возвращает null, если файл не удалось прочитать: один кривой набор не роняет весь каталог. */
     private fun readSet(file: Path): CardSet? =
         try {

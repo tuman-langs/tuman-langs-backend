@@ -9,4 +9,7 @@ import ru.itmo.tuman.catalog.domain.model.CardSet
 interface SetRepository {
     /** Все наборы, которые удалось прочитать. Кривые файлы пропускаются. */
     fun getAll(): List<CardSet>
+
+    /** Набор с таким [id] или null, если его нет (или его файл не удалось прочитать). */
+    fun getById(id: String): CardSet?
 }

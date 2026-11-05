@@ -20,6 +20,7 @@ import ru.itmo.tuman.catalog.testdata.contentDirWith
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 class SetsRoutesTest {
 
@@ -91,6 +92,67 @@ class SetsRoutesTest {
     fun `нет папки с наборами — 500 и ошибка в JSON без подробностей`() {
         testServer("no-such-folder") {
             val response = client.get("/sets")
+
+            assertEquals(HttpStatusCode.InternalServerError, response.status)
+            assertEquals("""{"error":"internal_error"}""", response.bodyAsText())
+        }
+    }
+
+    @Test
+    fun `GET sets id отдаёт набор целиком в UTF-8`() {
+        val dir = contentDirWith("test-set.json" to TEST_SET_JSON)
+
+        testServer(dir.toString()) {
+            val response = client.get("/sets/test-set")
+
+            assertEquals(HttpStatusCode.OK, response.status)
+            assertEquals("application/json; charset=UTF-8", response.headers[HttpHeaders.ContentType])
+
+            val set = Json.parseToJsonElement(response.bodyAsText()).jsonObject
+            assertEquals("test-set", set["id"]!!.jsonPrimitive.content)
+            assertEquals("Тестовый набор: әөүғҡңҙҫһ", set["title"]!!.jsonPrimitive.content)
+            assertEquals("тест", set["sources"]!!.jsonArray.single().jsonPrimitive.content)
+
+            val cards = set["cards"]!!.jsonArray.map { it.jsonObject }
+            assertEquals(listOf("test-set-0001", "test-set-0002"), cards.map { it["id"]!!.jsonPrimitive.content })
+            assertEquals("Һаумы!", cards[0]["front"]!!.jsonPrimitive.content)
+            assertEquals("ҡала", cards[1]["example"]!!.jsonPrimitive.content)
+            assertEquals("город", cards[1]["example_translation"]!!.jsonPrimitive.content)
+        }
+    }
+
+    @Test
+    fun `необязательных полей, которых нет в наборе, нет и в ответе`() {
+        val dir = contentDirWith("test-set.json" to TEST_SET_JSON)
+
+        testServer(dir.toString()) {
+            val card = Json.parseToJsonElement(client.get("/sets/test-set").bodyAsText())
+                .jsonObject["cards"]!!.jsonArray[0].jsonObject
+
+            for (field in listOf("pronunciation", "notes", "example", "example_translation")) {
+                assertFalse(field in card, "поле $field не должно приходить как null")
+            }
+            assertTrue("tags" in card)
+        }
+    }
+
+    @Test
+    fun `нет такого набора — 404 и set_not_found`() {
+        val dir = contentDirWith("test-set.json" to TEST_SET_JSON)
+
+        testServer(dir.toString()) {
+            val response = client.get("/sets/no-such-set")
+
+            assertEquals(HttpStatusCode.NotFound, response.status)
+            assertEquals("application/json; charset=UTF-8", response.headers[HttpHeaders.ContentType])
+            assertEquals("""{"error":"set_not_found"}""", response.bodyAsText())
+        }
+    }
+
+    @Test
+    fun `GET sets id без папки с наборами — 500 без подробностей`() {
+        testServer("no-such-folder") {
+            val response = client.get("/sets/test-set")
 
             assertEquals(HttpStatusCode.InternalServerError, response.status)
             assertEquals("""{"error":"internal_error"}""", response.bodyAsText())
