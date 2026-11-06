@@ -1,0 +1,334 @@
+{
+    "id": "ba-basic-words",
+    "language": "ba",
+    "title": "Базовые слова",
+    "description": "Слова, использующиеся в повседневной речи",
+    "version": 1,
+    "sources": [
+        "Русско-башкирский словарь под редакцией З. Г. Ураксина, 2005",
+        "Башкирско-русский словарь под редакцией З. Г. Ураксина, 1996",
+        "Изучаем башкирский язык - М. Г. Усманова, 2011",
+        "Веб-сайт \"Интерактивный башкирский\""
+    ],
+    "cards": [
+        {
+            "id": "ba-basic-words-0001",
+            "front": "Мин",
+            "back": "Я",
+            "pronunciation": "[мИн]",
+            "example": "Мин Туман, бәләкәй аҡ ябалаҡ!",
+            "example_translation": "Я Туман, маленький белый совенок!",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0002",
+            "front": "Һин",
+            "back": "Ты",
+            "pronunciation": "[һИн]",
+            "example": "Һин уҡыусы!",
+            "example_translation": "Ты - ученик!",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0003",
+            "front": "Ул",
+            "back": "Он, она, оно",
+            "pronunciation": "[Ул]",
+            "example": "Ул Тулпар!",
+            "example_translation": "Он - Тулпар!",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0004",
+            "front": "Беҙ",
+            "back": "Мы",
+            "pronunciation": "[бЕҙ]",
+            "example": "Беҙ Башҡортостанда йәшәйбеҙ!",
+            "example_translation": "Мы живем в Башкортостане!",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0005",
+            "front": "Һеҙ",
+            "back": "Вы",
+            "pronunciation": "[һЕҙ]",
+            "example": "Һеҙ ғалимдар!",
+            "example_translation": "Вы - ученые!",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0006",
+            "front": "Улар",
+            "back": "Они",
+            "pronunciation": "[улАр]",
+            "example": "Улар беҙҙең дуҫтар!",
+            "example_translation": "Они - наши друзья!",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0007",
+            "front": "Был",
+            "back": "Это / эта / этот",
+            "pronunciation": "[бЫл]",
+            "example": "Был китап.",
+            "example_translation": "Это книга.",
+            "tags": [
+                "местоимение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0008",
+            "front": "Әсәй",
+            "back": "Мама",
+            "pronunciation": "[әсӘй]",
+            "example": "Ул әсәй!",
+            "example_translation": "Она - мама!",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0009",
+            "front": "Атай",
+            "back": "Папа",
+            "pronunciation": "[атАй]",
+            "example": "Ул атай!",
+            "example_translation": "Он - папа!",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0010",
+            "front": "Өләсәй",
+            "back": "Бабушка",
+            "pronunciation": "[өләсӘй]",
+            "example": "Был өләсәй!",
+            "example_translation": "Это - бабушка!",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0011",
+            "front": "Олатай",
+            "back": "Дедушка",
+            "pronunciation": "[олатАй]",
+            "example": "Мин олатай.",
+            "example_translation": "Я - дедушка.",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0012",
+            "front": "Бала",
+            "back": "Ребенок",
+            "pronunciation": "[балА]",
+            "example": "Һин бала.",
+            "example_translation": "Ты - ребенок.",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0013",
+            "front": "Апай",
+            "back": "Тетя / Старшая сестра",
+            "pronunciation": "[апАй]",
+            "notes": "Это слово используется и в вежливом обращении к женщине старшего возраста!",
+            "example": "Һаумыһығыҙ, Әлфиә апай!",
+            "example_translation": "Здравствуйте, тетя Альфия! / Здравствуйте, Альфия! (уважительно)",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0014",
+            "front": "Ағай",
+            "back": "Дядя / Старший брат",
+            "pronunciation": "[ағАй]",
+            "notes": "Это слово используется и в вежливом обращении к мужчине старшего возраста!",
+            "example": "Һаумыһығыҙ, Айнур ағай!",
+            "example_translation": "Здравствуйте, дядя Айнур! / Здравствуйте, Айнур! (уважительно)",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0015",
+            "front": "Ҡусты",
+            "back": "Младший брат",
+            "pronunciation": "[ҡустЫ]",
+            "example": "Хәлдәр нисек, Әмир ҡусты?",
+            "example_translation": "Как дела, братик Амир? / Как дела, Амирчик?",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0016",
+            "front": "Һеңле",
+            "back": "Младшая сестра",
+            "pronunciation": "[һеңлЕ]",
+            "example": "Хәйерле кис, Әлиә һеңле!",
+            "example_translation": "Добрый вечер, сестренка Алия! / Добрый вечер, Алиюша!",
+            "tags": [
+                "существительное",
+                "семья"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0017",
+            "front": "Дуҫ",
+            "back": "Друг",
+            "pronunciation": "[дУҫ]",
+            "example": "Һау бул, дуҫ!",
+            "example_translation": "Пока, друг!",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0018",
+            "front": "Малай",
+            "back": "Мальчик",
+            "pronunciation": "[малАй]",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0019",
+            "front": "Ҡыҙыҡай",
+            "back": "Девочка",
+            "pronunciation": "[ҡыҙыҡАй]",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0020",
+            "front": "Ир",
+            "back": "Мужчина",
+            "pronunciation": "[Ир]",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0021",
+            "front": "Ҡатын",
+            "back": "Женщина",
+            "pronunciation": "[ҡатЫн]",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0022",
+            "front": "Егет",
+            "back": "Парень",
+            "pronunciation": "[егЕт]",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0023",
+            "front": "Ҡыҙ",
+            "back": "Девушка",
+            "pronunciation": "[ҡЫҙ]",
+            "tags": [
+                "существительное",
+                "люди"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0024",
+            "front": "Исем",
+            "back": "Имя",
+            "pronunciation": "[исЕм]",
+            "example": "Минең исемем - Туман!",
+            "example_translation": "Мое имя - Туман!",
+            "tags": [
+                "существительное",
+                "общение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0025",
+            "front": "Өй",
+            "back": "Дом",
+            "pronunciation": "[Өй]",
+            "example": "Был матур өй.",
+            "example_translation": "Это красивый дом.",
+            "tags": [
+                "существительное",
+                "место"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0026",
+            "front": "Урам",
+            "back": "Улица",
+            "pronunciation": "[урАм]",
+            "example": "Был - ҙур урам!",
+            "example_translation": "Это - большая улица!",
+            "tags": [
+                "существительное",
+                "место"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0027",
+            "front": "Ҡала",
+            "back": "Город",
+            "pronunciation": "[ҡалА]",
+            "example": "Өфө - ҡала.",
+            "example_translation": "Уфа - это город.",
+            "tags": [
+                "существительное",
+                "место"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0028",
+            "front": "Сәләм",
+            "back": "Привет",
+            "pronunciation": "[сәлӘм]",
+            "example": "Сәләм, Туман!",
+            "example_translation": "Привет, Туман!",
+            "tags": [
+                "слово",
+                "общение"
+            ]
+        }
+    ]
+}
