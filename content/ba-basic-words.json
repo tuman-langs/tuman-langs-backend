@@ -281,6 +281,66 @@
                 "существительное",
                 "общение"
             ]
+        },
+        {
+            "id": "ba-basic-words-0025",
+            "front": "Өй",
+            "back": "Дом",
+            "pronunciation": "[Өй]",
+            "example": "Был матур өй.",
+            "example_translation": "Это красивый дом.",
+            "tags": [
+                "существительное",
+                "место"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0026",
+            "front": "Урам",
+            "back": "Улица",
+            "pronunciation": "[урАм]",
+            "example": "Был - ҙур урам!",
+            "example_translation": "Это - большая улица!",
+            "tags": [
+                "существительное",
+                "место"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0027",
+            "front": "Ҡала",
+            "back": "Город",
+            "pronunciation": "[ҡалА]",
+            "example": "Өфө - ҡала.",
+            "example_translation": "Уфа - это город.",
+            "tags": [
+                "существительное",
+                "место"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0028",
+            "front": "Сәләм",
+            "back": "Привет",
+            "pronunciation": "[сәлӘм]",
+            "example": "Сәләм, Туман!",
+            "example_translation": "Привет, Туман!",
+            "tags": [
+                "слово",
+                "общение"
+            ]
+        },
+        {
+            "id": "ba-basic-words-0028",
+            "front": "Сәләм",
+            "back": "Привет",
+            "pronunciation": "[сәлӘм]",
+            "example": "Сәләм, Туман!",
+            "example_translation": "Привет, Туман!",
+            "tags": [
+                "слово",
+                "общение"
+            ]
         }
     ]
 }
